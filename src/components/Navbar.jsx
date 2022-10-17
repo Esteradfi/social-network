@@ -1,20 +1,22 @@
+import styles from './Navbar.module.css';
+
 const Navbar = () => {
     return (
-        <nav className='nav'>
+        <nav className={styles.nav}>
             <div>
-                <a>Profile</a>
+                <a className={styles.item} href="#$">Profile</a>
             </div>
             <div>
-                <a>Messages</a>
+                <a className={styles.item} href="#$">Messages</a>
             </div>
             <div>
-                <a>News</a>
+                <a className={styles.item} href="#$">News</a>
             </div>
             <div>
-                <a>Music</a>
+                <a className={styles.item} href="#$">Music</a>
             </div>
             <div>
-                <a>Settings</a>
+                <a className={styles.item} href="#$">Settings</a>
             </div>
         </nav>
     );
